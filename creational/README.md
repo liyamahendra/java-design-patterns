@@ -6,8 +6,8 @@ Creational design patterns are all about class instantiation or object creation.
 -   Abstract Factory
 -   Singleton
 -   Builder
+-   Prototype
 -   Object Pool
--   Prototype.
 
 **Factory Pattern:** In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
 
@@ -16,3 +16,5 @@ Creational design patterns are all about class instantiation or object creation.
 **Singleton Pattern:** Singleton Pattern involves a single class which is responsible to create an object and making sure that one and only one object gets created. The Constructor of the Singleton class is always Private, which prevents calling the new operator on the call to create a new instance.
 
 **Builder Pattern:** Builder pattern builds a complex object using simple objects and using a step by step approach. To visualize this, we can create a Builder pattern for a meal which contains two food items: Burger and Coke.
+
+**Prototype Pattern:** Prototype pattern refers to creating duplicate object while keeping performance in mind. This pattern involves implementing a prototype interface which tells to create a clone of the current object. This pattern is used when creation of object directly is costly. For example, an object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.
