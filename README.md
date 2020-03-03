@@ -1,4 +1,4 @@
-# java-design-patterns
+# Java Design Patterns
 
 Design patterns represent the best practices used by experienced object-oriented software developers.
 
