@@ -18,3 +18,5 @@ Creational design patterns are all about class instantiation or object creation.
 **Builder Pattern:** Builder pattern builds a complex object using simple objects and using a step by step approach. To visualize this, we can create a Builder pattern for a meal which contains two food items: Burger and Coke.
 
 **Prototype Pattern:** Prototype pattern refers to creating duplicate object while keeping performance in mind. This pattern involves implementing a prototype interface which tells to create a clone of the current object. This pattern is used when creation of object directly is costly. For example, an object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.
+
+**Object Pool Pattern:** Object Pool Pattern is used to reuse the object that are expensive to create. An Object pool is a container which contains a specified amount of objects. When an object is taken from the pool, it is not available in the pool until it is put back. Objects in the pool have a lifecycle: creation, validation and destroy.
