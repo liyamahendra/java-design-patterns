@@ -24,4 +24,7 @@ These design patterns concern class and object composition. Concept of inheritan
 **Behavioral Patterns**
 These design patterns are specifically concerned with communication between objects.
 
-Credits: [Tutorials Point](https://www.tutorialspoint.com/design_pattern)
+### Credits:
+
+1. [Tutorials Point](https://www.tutorialspoint.com/design_pattern)
+2. [Geeks For Geeks](https://www.geeksforgeeks.org/bridge-design-pattern/)
