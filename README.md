@@ -9,7 +9,10 @@ According to these authors design patterns are primarily based on the following 
 -   Program to an interface not an implementation
 -   Favor object composition over inheritance
 
-There are 23 design patterns which can be classified in three categories: Creational, Structural and Behavioral patterns.
+There are 23 design patterns which can be classified in three categories: 
+- Creational patterns
+- Structural patterns
+- Behavioral patterns
 
 **Creational Patterns**
 These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new operator. This gives program more flexibility in deciding which objects need to be created for a given use case.
